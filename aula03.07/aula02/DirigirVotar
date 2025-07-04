@@ -1,0 +1,7 @@
+print('Programa para tirar CNH')
+nome = input ('digite seu nome')
+idade = int (input ('Digite sua idade:'))
+if ( idade > 18 ):
+    print (f'{nome} você pode tirar a CNH')
+else:
+    print (f'{nome}, você ainda não tem a idade mínima')
